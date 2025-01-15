@@ -12,13 +12,14 @@
   height: 100vh;
 }
 
+/* Default: AI Lonely Companion */
 body {
-  margin: 0;
-  background-color: #faaca8;
-  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+  background-color: #00416a;
+  background-image: linear-gradient(115deg, #ac0d0d 0%, #005b82 100%);
 }
 
+/* Doctor Chill */
 body.greenScreen {
-  background-color: #00ff00;
-  background-image: none;
+  background-color: #232526;
+  background-image: linear-gradient(115deg, #17cedb 0%, #000c18 100%);
 }

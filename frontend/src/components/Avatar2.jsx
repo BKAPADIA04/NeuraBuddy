@@ -101,9 +101,9 @@ const corresponding = {
 
 let setupMode = false;
 
-export function Avatar1(props) {
+export function Avatar2(props) {
   const { nodes, materials,scene} = useGLTF(
-    "/models/employee.glb"
+    "/models/doctor.glb"
   );
 
 //   console.log(nodes,materials);
@@ -375,5 +375,5 @@ export function Avatar1(props) {
   );
 }
 
-useGLTF.preload("/models/employee.glb");
+useGLTF.preload("/models/doctor.glb");
 useGLTF.preload("/models/animations.glb");
